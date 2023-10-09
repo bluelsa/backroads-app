@@ -1,12 +1,11 @@
 import React from 'react'
-import { socialLinks } from './data';
 import PageLinks from './partialComponents/PageLinks';
 import SocialLinks from './partialComponents/SocialLinks';
 
 const Footer = () => {
   return (
     <footer className="section footer">
-      
+
       <PageLinks parentClass="footer-links" itemClass="footer-link" />
       <SocialLinks parentClass="footer-icons" itemClass="footer-icon" />
 
